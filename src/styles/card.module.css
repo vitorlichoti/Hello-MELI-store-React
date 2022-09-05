@@ -1,0 +1,27 @@
+.cardProduct {
+  margin-top: 1rem;
+}
+
+.cardHeader {
+  display: flex;
+}
+
+/* .cardTitle {
+} */
+
+.cardDescription {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 1rem;
+  max-height: 16rem;
+}
+
+.cardDescription > div {
+  max-height: 16rem;
+  overflow-y: scroll;
+}
+
+.cardImage {
+  max-width: 16rem;
+  width: 100%;
+}

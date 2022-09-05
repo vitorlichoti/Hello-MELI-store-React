@@ -1,0 +1,23 @@
+.cartLink {
+  color: black;
+  font-size: xx-large;
+  position: relative;
+  text-decoration: none;
+}
+
+.cartLink span {
+  align-items: center;
+  background: black;
+  border-radius: 50%;
+  bottom: 0;
+  color: white;
+  display: flex;
+  font-size: medium;
+  height: 1.5rem;
+  justify-content: center;
+  padding: 0.25rem;
+  position: absolute;
+  right: 0;
+  transform: translateX(+50%);
+  width: 1.5rem;
+}

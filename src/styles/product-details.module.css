@@ -1,0 +1,24 @@
+.productDetailsPage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 1rem;
+}
+
+.productDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 64rem;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.productDetailsPageHeader {
+  display: flex;
+}
+
+.productDetailsPageContent {
+  display: flex;
+  flex-direction: column;
+}

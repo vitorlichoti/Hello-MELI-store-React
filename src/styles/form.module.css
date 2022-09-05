@@ -1,0 +1,17 @@
+.form {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.form [ type = 'radio' ] {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.form .filledStar {
+  fill: red;
+}

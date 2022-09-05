@@ -1,0 +1,38 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainSection {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem auto;
+  max-width: 64rem;
+  position: relative;
+  width: 100%;
+}
+
+.categories {
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  min-width: max-content;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.products {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
+
+.sorter {
+  position: relative;
+  margin-left: 35rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}

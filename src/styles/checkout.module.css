@@ -1,0 +1,34 @@
+.title {
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+}
+
+.personalTitle {
+  margin-bottom: 1rem;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.inputsWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.personalData {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  gap: 10px;
+}
+
+.paymentData {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  gap: 2px;
+}
