@@ -1,0 +1,61 @@
+.cardProduct {
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 16rem;
+  padding: 1rem;
+}
+
+.cardProduct > a {
+  text-decoration: none;
+}
+
+.cardProduct > a > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardProduct h3 {
+  color: black;
+  display: block;
+  font-size: large;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cardProduct p {
+  color: rgba(0, 0, 0, 0.72);
+  text-decoration: none;
+}
+
+.cardProduct .cardProductImageContainer {
+  border-radius: 0.5rem;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardProduct .cardProductImageContainer img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.cardProduct .cardProductImageContainer p {
+  background: rgba(0, 0, 0, 0.92);
+  border-top-right-radius: 0.5rem;
+  bottom: 0;
+  color: white;
+  font-size: small;
+  font-weight: 300;
+  left: 0;
+  padding: 0.25rem 0.5rem;
+  position: absolute;
+}
+
+.cardProduct .cardProductPrice {
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

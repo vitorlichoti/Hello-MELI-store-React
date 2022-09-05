@@ -1,0 +1,34 @@
+.homeHeader {
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+.homeHeader > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 72rem;
+  width: 100%;
+}
+
+.homeHeader form {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeHeader form > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.homeHeader form > p {
+  color: rgba(0, 0, 0, 0.32);
+  font-size: small;
+}
+
+.homeHeader .homeHeaderLogo {
+  max-height: 4rem;
+}

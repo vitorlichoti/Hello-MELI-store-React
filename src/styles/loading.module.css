@@ -1,0 +1,9 @@
+.loadingContainer {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.72);
+  color: white;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+}

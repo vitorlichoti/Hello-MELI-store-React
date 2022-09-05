@@ -1,0 +1,21 @@
+.cartProductCard {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.cartProductCard .iconButton {
+  align-items: center;
+  display: flex;
+  font-size: larger;
+  justify-content: center;
+  padding: 0.5rem 0.75rem;
+}
+
+.cartProductCard .title {
+  flex: 1;
+}
+
+.cartProductCard .price {
+  flex: 1;
+}

@@ -1,0 +1,14 @@
+.cartPage {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cartPage > div {
+  max-width: 64rem;
+  width: 100%;
+}
+
+.cartPage ul {
+  list-style: none;
+}
